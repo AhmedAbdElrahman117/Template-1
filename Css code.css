@@ -29,6 +29,7 @@ body {
      width: 750px;
    }
  }
+
 /* Medium */
  @media (min-width: 992px) {
     container {
@@ -36,10 +37,12 @@ body {
    }
  }
 /* Large */
- @media (min-width: 1200px)
+ @media (min-width: 1200px){
     container {
      width: 1170px;
 }
+ }
+
 
 .header {
   padding: 20px;
@@ -47,4 +50,6 @@ body {
 
 .header .container{
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
