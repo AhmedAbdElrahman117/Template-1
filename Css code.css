@@ -174,3 +174,10 @@ max-width: 100%;
   padding-bottom: 60px;
   background-color: #f6f6f6;
 }
+
+.featuers .container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+  grid-gap: 20px;
+  
+}
