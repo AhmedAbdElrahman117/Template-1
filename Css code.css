@@ -71,12 +71,13 @@ width:100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
-  height: 2px;
 }
 
 .header .links .icon span{
   background-color: #333;
   margin-bottom: 5px;
+  height: 2px;
+
 }
 
 .header .links .icon span:first-child{
