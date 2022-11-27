@@ -135,3 +135,6 @@ display: block;
 border-bottom: 1px solid #ddd;
 }
 
+.landing{
+  background-image: url(/pics/mountain.jpg);
+}
