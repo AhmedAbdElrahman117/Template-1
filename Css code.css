@@ -180,8 +180,8 @@ body {
 /* Start Features */
 
 .features {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
   background-color: var(--section-background);
 }
 .features .container {
@@ -210,8 +210,8 @@ body {
 
 /* Start Services  */
 .services {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
 }
 
 .services .services-content {
@@ -276,3 +276,18 @@ body {
   }
 }
 /* End Services  */
+
+/* Start Portfolio */
+.portfolio {
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+  background-color: var(--section-background);
+}
+
+.portfolio .portfolio-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 30px;
+  margin-top: 80px;
+}
+
