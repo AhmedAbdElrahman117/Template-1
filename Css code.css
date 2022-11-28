@@ -386,3 +386,8 @@ body {
   margin-bottom: 50px;
 }
 
+.about .about-content .text hr {
+  width: 50%;
+  display: inline-block;
+  border-color: var(--main-color);
+}
